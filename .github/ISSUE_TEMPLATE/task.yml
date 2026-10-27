@@ -1,0 +1,35 @@
+name: Development Task
+description: Task for the multi-agent workflow
+title: "[TASK] "
+labels: ["task"]
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What must be implemented?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included and excluded?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Conditions required for acceptance
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Technical Constraints
+      description: Architecture and implementation limits

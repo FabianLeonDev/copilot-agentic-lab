@@ -1,0 +1,25 @@
+﻿# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test results and coverage reports
+[Tt]est[Rr]esult*/
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.lcov
+
+# IDE/editor state
+*.rsuser
